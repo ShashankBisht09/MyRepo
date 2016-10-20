@@ -49,5 +49,5 @@ public class IRCTC {
 	    driver.findElement(By.xpath("//div[@onclick='submitSearch();']")).click();
 	    List<WebElement> list=driver.findElements(By.xpath("//div[@class='onewayflightinfo']"));
 	    System.out.println(list.size());
- System.out.println("a");
+ System.out.println("a");System.out.println("b");
 	}}
